@@ -4,7 +4,7 @@ OmniNode is a lightweight, self-hosted server application for managing OPC UA, M
 
 ## Prerequisites
 
-* **.NET 8.0 Runtime** installed on your machine (if published framework-dependent).
+* **.NET 8.0 Runtime** installed on your machine.
   Download: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
 * Windows, Linux, or macOS.
 * A modern web browser (Chrome, Edge, Firefox, etc.).
