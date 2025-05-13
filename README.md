@@ -11,26 +11,13 @@ OmniNode is a lightweight, self-hosted server application for managing OPC UA, M
 
 ## Installation & Setup
 
-1. **Download** the published `publish/` folder and extract it to a directory of your choice (e.g., `C:\Software\OmniNode`).
-2. Ensure the following files and folders are present:
+1. **Download** and extract it to a directory of your choice (e.g., `C:\Software\OmniNode`).
 
-   ```txt
-   OmniNode.exe
-   OmniNode.dll
-   OmniNode.deps.json
-   OmniNode.runtimeconfig.json
-   OmniNode.staticwebassets.endpoints.json
-   wwwroot/        (contains Blazor assets, CSS, JS)
-   runtimes/       (native assets)
-   *.json          (your configuration files: mqtt_configuration.json, opc_configuration.json, rest_configuration.json, options.json)
-   ```
-3. Optionally, review and edit the JSON configuration files (`*.json`) to change server ports, endpoints, authentication keys, etc.
+2. Optionally, review and edit the JSON configuration files (`*.json`) to change server ports, endpoints, authentication keys, etc.
 
 ## Running the Server
 
-1. Open a terminal or command prompt in the extracted directory.
-
-2. Launch the server:
+1. Launch the server:
 
    ```bash
    OmniNode.exe
