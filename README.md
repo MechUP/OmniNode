@@ -49,19 +49,19 @@ Once logged in, you can:
 
 1. **Configure and start an OPC UA server**
 
-   * Go to **OPC UA** → **Setup**
+   * Go to **OPC UA**
    * Specify port, node configuration, etc.
    * Click **Launch Server** to start.
 
 2. **Configure and start an MQTT server**
 
-   * Go to **MQTT** → **Setup**
+   * Go to **MQTT**
    * Specify host, port, and topic configurations.
    * Click **Launch Server** to start.
 
 3. **Configure and start a REST API server**
 
-   * Go to **REST API** → **Setup**
+   * Go to **REST API**
    * Enter base URL, port, authentication key, and endpoint definitions.
    * Click **Launch Server** to start.
 
