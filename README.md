@@ -11,9 +11,7 @@ OmniNode is a lightweight, self-hosted server application for managing OPC UA, M
 
 ## Installation & Setup
 
-1. **Download** and extract it to a directory of your choice (e.g., `C:\Software\OmniNode`).
-
-2. Optionally, review and edit the JSON configuration files (`*.json`) to change server ports, endpoints, authentication keys, etc.
+**Download** and extract it to a directory of your choice (e.g., `C:\Software\OmniNode`).
 
 ## Running the Server
 
