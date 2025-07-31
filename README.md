@@ -15,13 +15,15 @@ OmniNode is a lightweight, self-hosted server application for managing OPC UA, M
 
 ## Running the Server
 
+### Windows (framework-dependent)
+
 1. Launch the server:
 
    ```bash
    OmniNode.exe
    ```
 
-3. The console will display the listening URLs, for example:
+2. The console will display the listening URLs, for example:
 
    ```text
        >> OmniNode Server is running at:
@@ -29,7 +31,32 @@ OmniNode is a lightweight, self-hosted server application for managing OPC UA, M
        >> http://localhost:5150
    ```
 
-4. Open your browser and navigate to one of the listed URLs (HTTPS is recommended if you have a valid certificate).
+3. Open your browser and navigate to one of the listed URLs (HTTPS is recommended if you have a valid certificate).
+
+### Linux/macOS (framework-dependent)
+
+1. Ensure the .NET 8.0 runtime is installed on your machine. On Debian/Ubuntu:
+
+   ```bash
+   wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb
+   sudo dpkg -i packages-microsoft-prod.deb
+   sudo apt update && sudo apt install -y dotnet-runtime-8.0
+   ```
+
+2. Copy your published output (containing `OmniNode.dll`) to the target system, for example:
+
+   ```bash
+   scp -r bin/Release/net8.0/linux-x64/publish/ user@linux:/opt/omninode
+   ```
+
+3. On the Linux/macOS host, run:
+
+   ```bash
+   cd /opt/omninode
+   dotnet OmniNode.dll
+   ```
+
+4. The console will display the listening URLs as shown above.
 
 ## Logging In
 
@@ -80,4 +107,4 @@ For questions or to request features, please email: [contact@mechup.net](mailto:
 
 ---
 
-© 2025 OmniNode / MechUP Systems. All rights reserved.
+© 2025 OmniNode / MechUP. All rights reserved.
