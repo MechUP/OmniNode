@@ -1,6 +1,6 @@
 # OmniNode
 
-OmniNode is a lightweight, self-hosted server application for managing OPC UA, MQTT, and REST API endpoints via a web interface.
+OmniNode is a lightweight, self-hosted industrial data platform for connecting OPC UA, MQTT, and REST API sources, collecting their data, and viewing it through a unified web interface.
 
 ## Prerequisites
 
@@ -94,7 +94,14 @@ Once logged in, you can:
 
    * The dashboard shows the current status and URL of each server.
 
-That’s it—once configured, your servers will be available at the specified ports and endpoints.
+5. **View collected data**
+
+  * Open the DataViewer page.
+  * Browse data collected from configured OPC UA, MQTT, and REST API sources in one place.
+  * Filter stored data by tag and time range.
+  * Use the DataViewer to inspect historical machine and process data without accessing the individual source systems.
+
+Once configured, OmniNode can connect your industrial data sources, collect and store their data, and make it available through a single web interface.
 
 ## Stopping the Server
 
@@ -107,4 +114,4 @@ For questions or to request features, please email: [contact@mechup.net](mailto:
 
 ---
 
-© 2025 OmniNode / MechUP. All rights reserved.
+© 2026 OmniNode / MechUP. All rights reserved.
